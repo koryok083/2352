@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors (Material Design 3) -->
+    <color name="colorPrimary">#667eea</color>
+    <color name="colorPrimaryDark">#5568d3</color>
+    <color name="colorPrimaryLight">#8fa3f0</color>
+    <color name="colorOnPrimary">#ffffff</color>
+
+    <!-- Secondary Colors -->
+    <color name="colorSecondary">#764ba2</color>
+    <color name="colorSecondaryDark">#6a4297</color>
+    <color name="colorOnSecondary">#ffffff</color>
+
+    <!-- Status Colors -->
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorSuccessDark">#45a049</color>
+    <color name="colorError">#f44336</color>
+    <color name="colorErrorDark">#da190b</color>
+    <color name="colorWarning">#ffa500</color>
+    <color name="colorInfo">#2196F3</color>
+
+    <!-- Background Colors -->
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorSurface">#f5f5f5</color>
+    <color name="colorSurfaceVariant">#e8e8e8</color>
+
+    <!-- Text Colors -->
+    <color name="colorTextPrimary">#333333</color>
+    <color name="colorTextSecondary">#666666</color>
+    <color name="colorTextTertiary">#999999</color>
+    <color name="colorTextHint">#cccccc</color>
+
+    <!-- Border & Divider -->
+    <color name="colorBorder">#e0e0e0</color>
+    <color name="colorDivider">#d0d0d0</color>
+
+    <!-- Gradient Colors -->
+    <color name="colorGradientStart">#667eea</color>
+    <color name="colorGradientEnd">#764ba2</color>
+
+    <!-- Status Indicator -->
+    <color name="colorActive">#00ff00</color>
+    <color name="colorInactive">#cccccc</color>
+    <color name="colorDisabled">#f0f0f0</color>
+
+    <!-- Transparent -->
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+</resources>

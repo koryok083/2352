@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Android Modem Control Panel</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>📱 Android Modem Controller</h1>
+                <p>Control your Android device as a modem</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Status Panel -->
+            <section class="panel status-panel">
+                <h2>📊 System Status</h2>
+                <div id="status" class="status-info">
+                    <div class="loading">Loading...</div>
+                </div>
+            </section>
+
+            <!-- Control Panel -->
+            <section class="panel control-panel">
+                <h2>🎮 Tethering Controls</h2>
+                
+                <!-- WiFi Hotspot -->
+                <div class="control-group">
+                    <h3>WiFi Hotspot</h3>
+                    <div class="button-group">
+                        <button id="hotspotStart" class="btn btn-success">
+                            <span class="icon">▶</span> Start Hotspot
+                        </button>
+                        <button id="hotspotStop" class="btn btn-danger">
+                            <span class="icon">⏹</span> Stop Hotspot
+                        </button>
+                    </div>
+                </div>
+
+                <!-- USB Tethering -->
+                <div class="control-group">
+                    <h3>USB Tethering</h3>
+                    <div class="button-group">
+                        <button id="usbStart" class="btn btn-success">
+                            <span class="icon">▶</span> Start USB
+                        </button>
+                        <button id="usbStop" class="btn btn-danger">
+                            <span class="icon">⏹</span> Stop USB
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Bluetooth Tethering -->
+                <div class="control-group">
+                    <h3>Bluetooth Tethering</h3>
+                    <div class="button-group">
+                        <button id="btStart" class="btn btn-success" disabled>
+                            <span class="icon">▶</span> Start BT
+                        </button>
+                        <button id="btStop" class="btn btn-danger" disabled>
+                            <span class="icon">⏹</span> Stop BT
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Devices Panel -->
+            <section class="panel devices-panel">
+                <h2>🔗 Connected Devices</h2>
+                <div id="devices" class="devices-list">
+                    <div class="loading">Loading...</div>
+                </div>
+                <p class="device-count">Total: <span id="deviceCount">0</span> devices</p>
+            </section>
+
+            <!-- Logs Panel -->
+            <section class="panel logs-panel">
+                <h2>📋 Activity Log</h2>
+                <div class="logs-toolbar">
+                    <button id="clearLogsBtn" class="btn btn-small btn-secondary">Clear Logs</button>
+                </div>
+                <div id="logs" class="logs-container"></div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Android Modem Controller v1.0</p>
+            <p>🔐 Local Access Only • Auto-refresh: 3s</p>
+        </footer>
+    </div>
+
+    <script src="/assets/script.js"></script>
+</body>
+</html>

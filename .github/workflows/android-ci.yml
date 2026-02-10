@@ -39,7 +39,7 @@ jobs:
           cache: gradle
 
       - name: 🔑 Validate Gradle Wrapper
-        uses: gradle/wrapper-validation-action@v1
+        uses: gradle/actions/wrapper-validation@v3
 
       - name: 🔧 Grant Execute Permission to Gradle
         run: chmod +x ./gradlew

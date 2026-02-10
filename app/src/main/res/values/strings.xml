@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name & General -->
+    <string name="app_name">Android Modem</string>
+    <string name="app_version">v1.0.0</string>
+    <string name="app_description">Control your Android device as a modem</string>
+
+    <!-- Main Activity -->
+    <string name="main_title">📱 Android Modem Controller</string>
+    <string name="main_subtitle">Control your device as modem</string>
+    <string name="service_status_running">✓ Service started on port 8080</string>
+    <string name="service_status_stopped">✗ Service stopped</string>
+    <string name="access_webui">Access: http://localhost:8080</string>
+
+    <!-- Buttons -->
+    <string name="btn_start_service">▶ Start Service (Port 8080)</string>
+    <string name="btn_stop_service">⏹ Stop Service</string>
+    <string name="btn_open_webui">🌐 Open WebUI (localhost:8080)</string>
+    <string name="btn_clear_logs">Clear Logs</string>
+
+    <!-- WiFi Hotspot -->
+    <string name="hotspot_title">WiFi Hotspot</string>
+    <string name="btn_hotspot_start">▶ Start Hotspot</string>
+    <string name="btn_hotspot_stop">⏹ Stop Hotspot</string>
+
+    <!-- USB Tethering -->
+    <string name="usb_title">USB Tethering</string>
+    <string name="btn_usb_start">▶ Start USB</string>
+    <string name="btn_usb_stop">⏹ Stop USB</string>
+
+    <!-- Bluetooth Tethering -->
+    <string name="bt_title">Bluetooth Tethering</string>
+    <string name="btn_bt_start">▶ Start BT</string>
+    <string name="btn_bt_stop">⏹ Stop BT</string>
+
+    <!-- Status Messages -->
+    <string name="status_active">🟢 Active</string>
+    <string name="status_inactive">🔴 Inactive</string>
+    <string name="status_loading">Loading...</string>
+    <string name="status_error">Error loading status</string>
+
+    <!-- Log Messages -->
+    <string name="log_initialized">Application initialized</string>
+    <string name="log_service_started">Service started</string>
+    <string name="log_service_stopped">Service stopped</string>
+    <string name="log_hotspot_started">WiFi Hotspot STARTED</string>
+    <string name="log_hotspot_stopped">WiFi Hotspot STOPPED</string>
+    <string name="log_usb_started">USB Tethering STARTED</string>
+    <string name="log_usb_stopped">USB Tethering STOPPED</string>
+
+    <!-- Info & Help -->
+    <string name="info_title">ℹ️ Information</string>
+    <string name="info_steps">1. Start the service\n2. Service runs on port 8080\n3. Access WebUI from browser\n4. Root access recommended</string>
+    <string name="info_requirements">Android 7.0+ • Root access recommended • 50MB storage</string>
+
+    <!-- Footer -->
+    <string name="footer_version">v1.0 • Android Modem App</string>
+    <string name="footer_copyright">Made with ❤️ by koryok083</string>
+
+    <!-- Permissions -->
+    <string name="permission_internet">Internet access required</string>
+    <string name="permission_network">Network access required</string>
+    <string name="permission_settings">Settings modification required</string>
+
+    <!-- Errors -->
+    <string name="error_service_failed">Failed to start service</string>
+    <string name="error_action_failed">Action failed. Check permissions.</string>
+    <string name="error_no_devices">No devices connected</string>
+</resources>

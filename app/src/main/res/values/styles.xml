@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Button Styles -->
+    <style name="ButtonBase">
+        <item name="android:paddingLeft">@dimen/padding_medium</item>
+        <item name="android:paddingRight">@dimen/padding_medium</item>
+        <item name="android:paddingTop">@dimen/padding_small</item>
+        <item name="android:paddingBottom">@dimen/padding_small</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:cornerRadius">@dimen/button_corner_radius</item>
+    </style>
+
+    <style name="ButtonSuccess" parent="ButtonBase">
+        <item name="android:backgroundTint">@color/colorSuccess</item>
+    </style>
+
+    <style name="ButtonDanger" parent="ButtonBase">
+        <item name="android:backgroundTint">@color/colorError</item>
+    </style>
+
+    <style name="ButtonSecondary" parent="ButtonBase">
+        <item name="android:backgroundTint">@color/colorSecondary</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="TextHeadline1">
+        <item name="android:textSize">@dimen/text_size_display</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextHeadline2">
+        <item name="android:textSize">@dimen/text_size_headline</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextTitle">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextSubtitle">
+        <item name="android:textSize">@dimen/text_size_subtitle</item>
+        <item name="android:textColor">@color/colorTextSecondary</item>
+    </style>
+
+    <style name="TextBody">
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <style name="TextCaption">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/colorTextTertiary</item>
+    </style>
+
+    <!-- Card Style -->
+    <style name="CardStyle">
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:padding">@dimen/padding_large</item>
+        <item name="android:elevation">@dimen/elevation_medium</item>
+    </style>
+
+    <!-- Panel Style -->
+    <style name="PanelStyle">
+        <item name="android:background">@color/colorSurface</item>
+        <item name="android:padding">@dimen/padding_medium</item>
+        <item name="android:layout_margin">@dimen/margin_small</item>
+    </style>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors (Dark Mode) -->
+    <color name="colorPrimary">#8fa3f0</color>
+    <color name="colorPrimaryDark">#667eea</color>
+    <color name="colorPrimaryLight">#a8b8f5</color>
+    <color name="colorOnPrimary">#1a1a2e</color>
+
+    <!-- Secondary Colors (Dark Mode) -->
+    <color name="colorSecondary">#9d7bb4</color>
+    <color name="colorSecondaryDark">#8a6fa0</color>
+    <color name="colorOnSecondary">#ffffff</color>
+
+    <!-- Status Colors (Dark Mode) -->
+    <color name="colorSuccess">#81c784</color>
+    <color name="colorSuccessDark">#66bb6a</color>
+    <color name="colorError">#ef5350</color>
+    <color name="colorErrorDark">#e53935</color>
+    <color name="colorWarning">#ffb74d</color>
+    <color name="colorInfo">#64b5f6</color>
+
+    <!-- Background Colors (Dark Mode) -->
+    <color name="colorBackground">#121212</color>
+    <color name="colorSurface">#1e1e1e</color>
+    <color name="colorSurfaceVariant">#2a2a2a</color>
+
+    <!-- Text Colors (Dark Mode) -->
+    <color name="colorTextPrimary">#ffffffff</color>
+    <color name="colorTextSecondary">#cccccc</color>
+    <color name="colorTextTertiary">#999999</color>
+    <color name="colorTextHint">#666666</color>
+
+    <!-- Border & Divider (Dark Mode) -->
+    <color name="colorBorder">#333333</color>
+    <color name="colorDivider">#404040</color>
+
+    <!-- Gradient Colors (Dark Mode) -->
+    <color name="colorGradientStart">#8fa3f0</color>
+    <color name="colorGradientEnd">#9d7bb4</color>
+
+    <!-- Transparent -->
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+</resources>

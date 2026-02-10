@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Landscape specific dimensions -->
+    <dimen name="activity_horizontal_margin">32dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+    <dimen name="panel_max_width">1200dp</dimen>
+</resources>

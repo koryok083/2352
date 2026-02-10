@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Application Theme (Dark) -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorBackground</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Window Attributes -->
+        <item name="android:windowBackground">@color/colorBackground</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+    </style>
+
+    <!-- Material Design Theme (Dark) -->
+    <style name="AppTheme.Material3" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorTextPrimary</item>
+        <item name="android:statusBarColor">@color/colorBackground</item>
+    </style>
+</resources>
